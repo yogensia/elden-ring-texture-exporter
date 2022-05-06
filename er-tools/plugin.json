@@ -1,0 +1,15 @@
+{
+	"description": "Elden Ring ready textures on export",
+	"url": "https://github.com/AllegorithmicSAS/painter-plugin-dcc-live-link",
+	"version": "1.0.0",
+	"min_api_version":  "1.1.1",
+	"license": "<a href=\"https://opensource.org/licenses/MIT\">MIT</a>",
+	"third_parties": [
+		{
+				"name": "DXTexTools",
+				"description": "this is the description of Foo",
+				"homepage_url": "https://www.thirdpartylibrary.com",
+				"license_url": "https://opensource.org/licenses/MIT"
+		}
+]
+}
