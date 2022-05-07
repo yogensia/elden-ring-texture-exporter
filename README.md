@@ -17,6 +17,7 @@ Substance Painter plugin for exporting Elden Ring ready DDS textures.
 - Open Substance Painter.
 - Open the JavasScript menu and enable `elden-ring-texture-exporter`.
 - You should see an icon of a Pot Friend appear in your toolbar. If you can't find it it's possible you have the plugins toolbar hidden. It can be enabled from the following menu: `Window` > `Toolbars` > `Plugins`.
+- You can ignore all the other files found in the archive.
 
 ## Usage
 

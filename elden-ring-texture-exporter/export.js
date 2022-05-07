@@ -87,8 +87,6 @@ function run(dir) {
   let exportPath = alg.mapexport.exportPath()
   alg.log.info(`Elden Ring Texture Exporter by Yogensia`)
   alg.log.info(`Exporting to ${exportPath}...`)
-  // alg.log.info(`Save state: ${alg.project.needSaving()}`)
-  // alg.log.info(`Plugin Path ${alg.plugin_root_directory}`)
 
   let maps = exportMaps(exportPath)
   let paths = getPaths(maps)
