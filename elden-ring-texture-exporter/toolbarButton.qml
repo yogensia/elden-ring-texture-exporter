@@ -12,7 +12,7 @@ AlgToolBarButton
 {
   id: root
   enabled: true
-  iconName: "huh.png"
+  iconName: "pot.png"
   tooltip: qsTr("Export Elden Ring Textures...")
 
   FileDialog {

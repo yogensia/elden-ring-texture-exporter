@@ -26,7 +26,7 @@ function exportMaps(dir) {
 Object.defineProperty(Array.prototype, 'flat', {
   value: function(depth = 1) {
     return this.reduce(function (flat, toFlatten) {
-      return flat.concat((Array.isArray(toFlatten) && (depth>1)) ? toFlatten.flat(depth-1) : toFlatten);
+      return flat.concat((Array.isArray(toFlatten) && (depth>1)) ? toFlatten.flat(depth-1) : toFlatten)
     }, [])
   }
 });
@@ -38,9 +38,9 @@ function getPaths(maps) {
 
 // Pass images to texconv and compress them acording to their suffix.
 function tga2dds(paths, exportPath) {
-  paths.forEach(path => {
-    const texconv = `${alg.plugin_root_directory}DirectXTex/texconv.exe`
+  const texconv = `${alg.plugin_root_directory}DirectXTex/texconv.exe`
 
+  paths.forEach(path => {
     if (path.endsWith('_a.tga')) {
       alg.log.info(`Saved ${path.split('/').pop()} as Albedo (BC7 sRGB)...`)
       alg.subprocess.check_output([
@@ -85,7 +85,7 @@ function tga2dds(paths, exportPath) {
 // Get things started.
 function run(dir) {
   let exportPath = alg.mapexport.exportPath()
-  alg.log.info(`Elden Ring Tools by Yogensia (https://www.yogensia.com)`)
+  alg.log.info(`Elden Ring Texture Exporter by Yogensia`)
   alg.log.info(`Exporting to ${exportPath}...`)
   // alg.log.info(`Save state: ${alg.project.needSaving()}`)
   // alg.log.info(`Plugin Path ${alg.plugin_root_directory}`)

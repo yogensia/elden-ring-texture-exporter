@@ -1,8 +1,16 @@
 {
-  "name": "er-tools",
+  "name": "elden-ring-texture-exporter",
   "version": "0.1.0",
   "description": "Substance Painter plugin for exporting Elden Ring ready DDS textures.",
   "keywords": [],
+  "scripts": {
+    "dev": "gulp",
+    "check": "npm outdated & npm audit"
+  },
   "author": "Yogensia",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-newer": "^1.4.0"
+  }
 }
