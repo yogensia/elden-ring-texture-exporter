@@ -12,7 +12,7 @@ Substance Painter plugin for exporting Elden Ring ready DDS textures.
 
 ## Installation
 
-- Extract the `er-tools` folder in This archive to `..\My Documents\Adobe\Adobe Substance 3D Painter\plugins\`.
+- Extract the `elden-ring-texture-exporter` folder in This archive to `..\My Documents\Adobe\Adobe Substance 3D Painter\plugins\`.
 - Extract the `Elden Ring.sbexp` file to `..\My Documents\Adobe\Adobe Substance 3D Painter\assets\export-presets\`.
 - Open Substance Painter.
 - Open the JavasScript menu and enable `elden-ring-texture-exporter`.
